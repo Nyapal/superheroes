@@ -1,11 +1,15 @@
-class Dog:
+class Animal:
+    def __init__(self, name, sleep_duration):
+        self.name = name
+        self.sleep_duration = sleep_duration
+
+    def sleep(self):
+        print("{} sleeps for {} hours".format(self.name, self.sleep_duration))
+
+class Dog(Animal):
     def bark(self):
-        print("Woof!")
+        print("Woof! Woof!")
 
-my_dogs = list()
-
-my_dogs.append(Dog())
-my_dogs.append(Dog())
-
-for dog in my_dogs:
-    dog.bark()
+my_dog = Dog("Sophie", 12)
+my_dog.sleep()
+my_dog.bark()
