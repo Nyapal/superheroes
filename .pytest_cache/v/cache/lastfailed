@@ -1,6 +1,6 @@
 {
-  "hero_test.py::test_print_heroes": true,
-  "hero_test.py::test_team_remove_empty_list": true,
-  "hero_test.py::test_team_remove_hero": true,
-  "hero_test.py::test_team_remove_unlisted": true
+  "battle_test.py::test_revive_heroes": true,
+  "battle_test.py::test_team_attack_deaths": true,
+  "battle_test.py::test_team_attack_kills": true,
+  "battle_test.py::test_team_defend": true
 }
